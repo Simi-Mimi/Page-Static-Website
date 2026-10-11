@@ -23,5 +23,20 @@ nav{
 }
 .images > div{
     display: inline-block;
+
     margin: 0 10px;
+}
+.images figure img {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    
+  }
+  .images figure {
+    margin: 0;
+    padding: 0;
+  }
+.imagesSpace{
+    margin:300px
 }

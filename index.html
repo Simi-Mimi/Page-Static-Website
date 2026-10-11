@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,14 +24,20 @@
       </div>
     </header>
     <main>
-      <div>
+      <div class="content-container">
         <h1>?What's on the agenda today</h1>
-        <input type="text" placeholder="Ask anything" />
-        <button type="button">📎 Attach</button>
-        <button type="button">🌐 Search</button>
-        <button type="button">📖 Study</button>
-        <button type="button">🎨 Create image</button>
-        <button type="button" class="voice-btn">🎙️ Voice</button>
+        <div class="search-box">
+          <input type="text" placeholder="Ask anything" />
+          <div class="actions-wrapper"></div>
+          <div class="left-buttons">
+            <button type="button">📎 Attach</button>
+            <button type="button">🌐 Search</button>
+            <button type="button">📖 Study</button>
+            <button type="button">🎨 Create image</button>
+          </div>
+
+          <button type="button" class="voice-btn">🎙️ Voice</button>
+        </div>
       </div>
     </main>
   </body>
